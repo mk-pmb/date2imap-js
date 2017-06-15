@@ -1,0 +1,24 @@
+{ "name": "date2imap",
+  "version": "0.1.0",
+  "description": "Convert a JS Date or milliseconds-since-epoch to an RFC 3501 date-text.",
+  "keywords": [ "imap", "date" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/date2imap-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/date2imap-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/date2imap-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "date2imap.js",
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
